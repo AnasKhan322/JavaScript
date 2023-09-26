@@ -19,6 +19,13 @@ function addTask(){
     saveData();
 
 }
+function handleKeyPress(e) {
+    if (e.keyCode === 13) {
+        addTask();
+    }
+}
+
+inputBox.addEventListener("keydown", handleKeyPress, false);
 
 listContainer.addEventListener("click",function(e){
     if (e.target.tagName==="LI"){
