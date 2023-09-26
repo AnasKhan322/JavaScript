@@ -38,5 +38,3 @@ This is a simple and interactive web application for managing your to-do list. Y
 - JavaScript
 
 ---
-
-**Note:** This is a simple to-do list app created for educational purposes. It can be used as a starting point for building more feature-rich to-do list applications.
