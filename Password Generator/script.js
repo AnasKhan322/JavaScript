@@ -23,7 +23,6 @@ function createPassword(){
 
     }
     passwordBox.value = password;
-    console.log(copyImg);
 }
 
 function copyPassword() {
