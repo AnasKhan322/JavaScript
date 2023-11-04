@@ -22,7 +22,7 @@ function createPassword(){
         password += allChars[Math.floor(Math.random() * allChars.length)];
 
     }
-    passwordBox.value = password;
+    passwordBox.value = password;   
 }
 
 function copyPassword() {
